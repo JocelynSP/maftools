@@ -3,7 +3,7 @@
 # If the average intermutation distance is larger than 1000, one element is added at the back of the queue and one is removed from the front.
 # If the average intermutation distance is less or equal to 1000, further mutations are added until the average intermutation distance is larger than 1000.
 # After that all mutations in the double-ended queue are written into output as one kataegis and the double-ended queue is reinitialized with six mutations.
-
+# I am going to make changes!
 detect_kataegis_chr = function(chr.dat){
   chr.dat[, row_idx := 1:nrow(chr.dat)]
 
